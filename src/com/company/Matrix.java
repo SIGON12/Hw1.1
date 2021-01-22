@@ -20,7 +20,7 @@ public class Matrix {
     int[][] arrm=new int[x][y];
         arrm[x][y] =(int)(Math.random()+1);{ // заполнение матрицы
             for(int i= 0;i<arrm.length; i++){
-        for (int j=0; j<arrm.length; j++){
+        for (int j=0; j<arrm[i].length; j++){
             System.out.println("Матрица создана: " + arrm[x][y]);
            System.out.println("Матрица 1 :" + arrm[0][0]); //вывод 1 значения матрицы
         }}
